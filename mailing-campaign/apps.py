@@ -5,5 +5,5 @@ from django.utils.translation import ugettext_lazy as _
 
 
 class MailingConfig(AppConfig):
-    name = 'mailing'
-    verbose_name = _("Mailing")
+    name = 'mailing-campaign'
+    verbose_name = _("MailingCampaign")
